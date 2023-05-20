@@ -1,6 +1,9 @@
 echo "GNOME will be now installed!"
-sudo pacman -Syyy gdm
+echo
+sudo pacman -Syyy gdm --no-confirm
 sudo systemctl enable gdm
-sudo pacman -Syyy gnome gnome-extra gdm
+sudo pacman -Syyy gnome gnome-extra gdm --no-confirm
 sudo systemctl enable gdm
+echo
+echo
 echo "Reboot needed"
