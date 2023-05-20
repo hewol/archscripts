@@ -1,9 +1,6 @@
-echo "GNOME will be now installed!"
-echo
+echo "GNOME minimal will be now installed!"
 sudo pacman -Syyy gdm --noconfirm
 sudo systemctl enable gdm
-sudo pacman -Syyy gnome gnome-extra gdm --noconfirm
+sudo pacman -Syyy gnome gdm --noconfirm
 sudo systemctl enable gdm
-echo
-echo
 echo "Reboot needed"
