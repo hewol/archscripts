@@ -1,5 +1,7 @@
 # Arch Scripts by Hewol
 
+### NOTE: Currently this project is not maintained or anything made but soon things will be made...
+
 
 We not only make aerOS but also Arch Scripts as well! This is a community based project!
 
